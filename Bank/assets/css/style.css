@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 1%;
+}
+
+.dashboard>.container>div>div>.head-nav{
+    padding: 20px;
+    border-radius: 20px;
+    background: #a1a1a1;
+}
+
+.dashboard>.container>div>div>.head-nav>.nav-menu{
+    width: 25px;
+    background: orangered;
+}
+
+
+.dashboard>.container>div>div>.head-nav>.nav-menu>.menu-bar{
+    background: #b86e0e;
+}
+
+
+.dashboard>.container>div>div>.head-nav>.nav-menu>.menu-bar>#bar{
+    float: inline-start;
+    border: 1px solid rgba(51, 51, 51, 0.623);
+    border-radius: 10px;
+    padding: 2px;
+    height: 2px;
+    width: 90%;
+    background: white;
+    cursor: pointer;
+}
+
+
+
+.dashboard>.container>div>div>.head-nav>.nav-menu>.menu{ 
+    display: none;
+}
+
+
+.dashboard>.container>div>div>.head-nav>.col-lg-10{
+    position: relative;
+    margin-left: 10%;
+    padding-inline-start: 50%;
+    padding-bottom: 0%;
+}
+
+.dashboard>.container>div>div>.head-nav>.col-lg-10>img{
+    position: relative;
+    float: inline-end;
+}
+
+
+.dashboard>.container>div>div>.head-nav>.col-lg-10>p{padding: 0%; margin: 0%;}
+.dashboard>.container>div>div>.head-nav>.col-lg-10>h4{font-size: 20px; margin-right: 50%;}
+.dashboard>.container>div>div>.head-nav>.col-lg-10>.v{font-size: 13px; margin-right: 50%;}
+.dashboard>.container>div>div>.head-nav>.col-lg-10>i>#pos{font-size:9px; margin-right: 50%;}
+
+
+.dashboard>.container>div>div>.head-nav>.col-lg-10>h4{
+    padding: 0%;
+    margin: 0%;
+    border: solid;
+}
+
+/*
+notification
+------------
+*/
+
+.dashboard>.container>.row>#notification{
+    margin: 1%;
+    padding: 20px;
+    min-height: 100%;
+    max-height: fit-content;
+    min-width: 100px;
+    max-width: fit-content;
+    border-radius: 20px;
+    background: #d1bcbf;
+
+}
+
+
+.dashboard>.container>div>#notification>.notification-index>span{
+    padding-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+
+.dashboard>.container>div>#notification>.notification-index>span>img{
+    width: 30px;
+    max-width: 50px;
+    min-width: none;
+    float: left;
+}
+
+.dashboard>.container>div>#notification>.fa-bell{
+    float: right;
+}
+
+
+.dashboard>.container>div>#notification>.notification-index>span>.fa-angle-right{
+    float: inline-end;
+}
+
+
+/*
+center section
+------------
+*/
+.dashboard>.container>div>#center{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+/*linear graph
+------------*/
+
+
+.dashboard>.container>div>#center>.linear-graph{
+    margin-bottom: 2%;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #a1a1a1;
+}
+
+
+/*signal
+------------*/
+
+
+.dashboard>.container>div>#center>.signals{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 20px;
+    border-radius: 20px;
+    background: #a1a1a1;
+}
+
+.fa-pencil-square-o{
+    float: inline-end;
+}
+
+
+.dashboard>.container>div>#center>.signals>li{
+    margin: 2%;
+    padding:0px;
+    list-style: none;
+    display: inline-flexbox;
+}
+
+.dashboard>.container>div>#center>.signals>li>h4{
+    font-size: 16px;
+}
+
+
+.dashboard>.container>div>#center>.signals>li>strong>a{
+    float: inline-end;
+}
+
+
+.dashboard>.container>div>#center>.signals>li>#signal-1{float: inline-start; padding-right: 15px; color: rgb(255, 255, 0);}
+.dashboard>.container>div>#center>.signals>li>#signal-2{float: inline-start; padding-right: 15px; color: rgb(55, 5, 102);}
+.dashboard>.container>div>#center>.signals>li>#signal-3{float: inline-start; padding-right: 15px; color: rgb(6, 189, 6);}
+
+
+/*documents
+-------------*/
+
+.dashboard>.container>div>#center>.documents{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 20px;
+    border-radius: 20px;
+    height: fit-content;
+    max-height: fit-content;
+    background: #a1a1a1;
+}
+
+
+.dashboard>.container>div>#center>.documents>div>li{
+    list-style-type: none;
+}
+
+
+.dashboard>.container>div>#center>.documents>div>li>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14pt;
+}
+
+
+.dashboard>.container>div>#center>.documents>div>li>a:hover{
+    color: #222;
+}
+
+
+.dashboard>.container>div>#center>.documents>div>li>a>.date-added{
+    float: right;
+}
+
+
+/*right content
+----------------*/
+
+#pie-chart{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    width: 350px;
+}
+
+/*piechart
+------------*/
+
+.pie-chart{
+    margin-bottom: 1%;
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    max-height: fit-content;
+    width: 350px;
+    background: #a1a1a1;
+}
+
+/*Credit
+---------------*/
+.credit{
+    margin-top: 12px;
+    margin-bottom: 1%;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 480px;
+    max-height: fit-content;
+    width: 350px;
+    background: #706464;
+
+}
+
+.credit>.credit-head{ display: inline-flex;}
+.credit>.credit-head>h1{font-size: 25px;}
+.credit>.credit-head>span{display: inline-flex;}
+.credit>.credit-head>span>ul{ display: inline-block;}
+
+.credit>.credit-head>span>ul>li{
+    margin: 2px;
+    max-height: 30px;
+    list-style-type: none;
+    min-width: fit-content;
+}
+
+.credit>.credit-head>span>ul>li>a{
+    height: fit-content;
+    color: #000000;
+    background: #ffffff;
+    padding-inline: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.credit>.credit-head>#side-icons>a{ display: inline-block;}
+
+
+.credit>.credit-head>#side-icons>a>.fa-pencil-square-o{
+    float: inline-end;
+    color:#000;
+}
+
+.credit>.credit-head>#side-icons>a>.fa-exclamation-circle{
+    float: inline-end;
+    color: red;
+}
+
+

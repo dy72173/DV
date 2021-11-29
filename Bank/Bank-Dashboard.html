@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Dashboard">
+    <meta name="keywords" content="en">
+    <title>Dashboard</title>
+
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+      <div class="dashboard">
+        <div class="container">
+          <div class="row">
+            <!-- head section-->
+            <div class="col-lg-12">
+              <div class="head-nav">
+                <div class="nav-menu">
+                  <div class="menu-bar" >
+                    <span class="col-sm-2" id="bar"></span>
+                    <span class="col-sm-2" id="bar"></span>
+                    <span class="col-sm-2" id="bar"></span>
+                  </div>
+                  <nav class="menu" id="menu">
+                    <span>&times;</span>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Dashboard</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="col-lg-10">
+                  <img src="assets/img/base.png" alt="pro-icon" height="50px" width="50px">
+                  <p class="v">VERSION 2.12</p>
+                  <h4>Jerome Bigdy</h4>
+                  <i><p id="pos">Risk Management Team leader</p></i>
+                </div>
+              </div>
+            </div>
+            <!-- head section end-->
+
+            <!-- notification-->
+            <section class="col-lg-2" id="notification">
+              <h3>Notifiaction</h3><i class="fa fa-bell"></i>
+              <div class="notification-index">
+                <span>
+                  <img src="assets/css/svg/exclamation-triangle-solid.svg" alt="">
+                  <i class="fa fa-angle-right fa-2x"></i>
+                  <h5>Re-Alert</h5>
+                  <p>You last transaction is over 10...</p>
+                </span>
+                <span>
+                  <img src="assets/css/svg/exclamation-triangle-solid.svg" alt="">
+                  <i class="fa fa-angle-right fa-2x"></i>
+                  <h5>Alert</h5>
+                  <p>You last transaction is over 10...</p>
+                </span>
+                <span>
+                  <img src="assets/css/svg/exclamation-triangle-solid.svg" alt="">
+                  <i class="fa fa-angle-right fa-2x"></i>
+                  <h5>Suggestion</h5>
+                  <p>Manage your account...</p>
+                </span>
+              </div>
+            </section>
+            <!-- notification end-->
+
+
+            <!--center content -->
+            <section class="col-lg-6" id="center">
+              <!-- Risk graph -->
+              <div class="linear-graph">
+                <span class="inline-graph-head">
+                  <i class="fa fa-pencil-square-o fa-2x"></i>
+                  <h2 class="col-sm-2"><b>Risk</b></h2>
+                  <p>CoBrand Air</p>
+                  <p>720-769</p>
+                  <img src="" alt="signal_alert">
+                  <img src="" alt="upper-arrow">
+                </span>
+                <div class="inline-graph-box">
+                </div> 
+              </div> 
+              <!-- Risk graph end -->
+
+              <!-- signals -->
+              <div class="signals">
+                <span>
+                  <h2><b>Signals</b>
+                  <i class="fa fa-pencil-square-o"></i>
+                  </h2>
+                </span>
+                <li><span class="fa fa-circle " id="signal-1"></span>
+                <h4>signal yellow for week<a>Learn more</a></h4>
+                <strong><a>Learn more</a></strong></li>
+                
+                <li><span class="fa fa-circle " id="signal-2"></span>
+                <h4>signal purple for low</h4>
+                <strong><a>Learn more</a></strong></li>
+                  
+                <li><span class="fa fa-circle " id="signal-3"></span>
+                <h4>signal green for high</h4>
+                <strong><a>Learn more</a></strong></li>
+              </div>
+              <!--signal end-->
+
+              <!-- document-->
+              <div class="documents">
+                <h2><i class="fa fa-pencil-square-o"></i><b>Documents</b></h2>
+                <div>
+                  <span class="name">Name</span>
+                  <span class="date-added"> Date Added </span>
+                  <hr>
+                  <li class="name"><a href="#">Q4 Benchmarking presenatation<span class="date-added">Jul 2019</span></a></li>
+                  <li class="name"><a href="#">Q3 Benchmarking presenatation<span class="date-added">Apr 2019</span></a></li>
+                  <li class="name"><a href="#">Q2 Benchmarking presenatationspan <span class="date-added">Jan 2019</span></a></li>
+                  <li class="name"><a href="#">Q1 Benchmarking presenatationspan <span class="date-added">Oct 2018</span></a></li>
+                </div>
+              </div>
+              <!-- document end-->      
+            </section>
+            <!--center content end-->
+
+
+            <!--right content -->
+            <section class="col-lg-3" id="pie-chart">
+              <!-- piechart graph-->
+              <div class="pie-chart">
+                <span id="pie-graph-head">
+                  <h2>Wallet Share</h2>
+                  <img src="" alt="upper-arrow">
+                </span>
+                <div class="pie-graph">
+                </div>
+                <img src="" alt="upper-arrow">
+                <p><strong> .5% since last Q2</strong></p>
+                <p><strong>81%</strong>off-Us</p>
+              </div>
+              <!--pie chart graph end-->
+
+              <!-- credit -->
+              <div class="credit">
+                <div class="credit-head">
+                  <span>
+                    <h1>Credit line</h1>
+                    <ul>
+                      <li><a href="#">Product</a></li>
+                      <li><a href="#">620760</a></li>
+                    </ul>
+                  </span>
+                  <span id="side-icons">
+                    <a href="#">
+                      <i class="fa fa-pencil-square-o"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fa fa-exclamation-circle" alt="Alert"></i>
+                    </a>
+                  </span>
+                </div>
+                <div class="bar-graph">
+                  <img src="#" alt="bar graph">   
+                </div>
+              </div>
+              <!-- credit end-->
+
+            </section>
+            <!--right content end-->
+          </div>
+        </div>
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>  
+</html>
